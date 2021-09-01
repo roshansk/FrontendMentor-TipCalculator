@@ -22,10 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-- Mobile & Tablet View
-  Mobile: 375px             | Tablet: 786px
-  :-------------------------:|:-------------------------:
-  ![](./screenshots/mobile.png)  |  ![](./screenshots/tablet.png)
+- Mobile: 375px
+
+  <img src="./screenshots/mobile.png" width="300px" >
+
+- Tablet: 786px
+![](./screenshots/desktop.png)
 
 - Desktop: 1024px
 ![](./screenshots/desktop.png)
