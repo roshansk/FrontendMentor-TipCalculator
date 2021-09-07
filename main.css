@@ -34,7 +34,7 @@ h3#title{
 
 h3#title span{
     display: block;
-    font-size: clamp(1.2rem,calc(2vw+0.8rem),1.4rem);
+    font-size: calc(1.2rem + 0.4vw);
     letter-spacing: 10px;
 }
 
@@ -169,7 +169,7 @@ div.tip-amount > p:nth-child(1) span:nth-child(2), div.bill-amount > p:nth-child
 }
 
 div.tip-amount > p:nth-child(2) span, div.bill-amount > p:nth-child(2) span{
-    font-size: clamp(1.6rem,calc(3.5vw+0.8rem),2.4rem);
+    font-size: calc(18px + 1.6vw);
     color: hsl(172, 67%, 45%);
     font-weight: 900;
 }
@@ -180,7 +180,7 @@ button#reset{
     background-color: hsl(172, 67%, 75%);
     color: hsl(172, 67%, 20%);
     font-weight: 900;
-    font-size: clamp(1rem,calc(2vw+0.6rem),1.2rem);
+    font-size: calc(14px + 0.2vw);
     border: none;
     border-radius: 3px;
     outline: none;
@@ -243,7 +243,7 @@ div.attribution{
 
 div.attribution p{
     display: block;
-    font-size: clamp(0.8rem,calc(3vw+0.8rem),1.1rem);
+    font-size: calc(14px + 0.3vw);
     background-color: #fff;
     margin: 1rem;
     padding: 0.5rem 1rem;

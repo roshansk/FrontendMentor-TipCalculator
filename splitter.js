@@ -116,6 +116,7 @@ window.onload = () => {
         document.querySelectorAll('.amount').forEach( amount => amount.innerHTML = "0.00" );
         document.querySelectorAll('.btn-tip').forEach( btn => btn.classList.remove('tip-selected'));
         newBill.reset();
+        e.target.disabled = true;
     })
 
 }
